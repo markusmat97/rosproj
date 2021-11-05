@@ -1,0 +1,40 @@
+name: airsim
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=51_gnu
+  - ca-certificates=2021.7.5=hd43f75c_1
+  - certifi=2021.5.30=py38hd43f75c_0
+  - ld_impl_linux-aarch64=2.36.1=h0ab8de2_3
+  - libffi=3.3=h7c1a80f_2
+  - libgcc-ng=10.2.0=h1234567_51
+  - libgomp=10.2.0=h1234567_51
+  - libstdcxx-ng=10.2.0=h1234567_51
+  - ncurses=6.2=hfd63f10_0
+  - openssl=1.1.1k=hfd63f10_1
+  - pip=21.0.1=py38hd43f75c_0
+  - python=3.8.8=he65049a_7
+  - readline=8.1=hfd63f10_0
+  - setuptools=52.0.0=py38hd43f75c_0
+  - sqlite=3.35.4=h017fe0a_1
+  - tk=8.6.10=h8ea0f78_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=hfd63f10_1
+  - zlib=1.2.11=hfd63f10_5
+  - pip:
+    - airsim==1.5.0
+    - catkin-pkg==0.4.23
+    - distro==1.6.0
+    - docutils==0.17.1
+    - msgpack-python==0.5.6
+    - msgpack-rpc-python==0.4.1
+    - numpy==1.21.1
+    - opencv-contrib-python==4.5.3.56
+    - pyparsing==2.4.7
+    - python-dateutil==2.8.2
+    - pyyaml==5.4.1
+    - rospkg==1.3.0
+    - six==1.16.0
+    - tornado==4.5.3
+prefix: /home/aimotion/anaconda3/envs/airsim
